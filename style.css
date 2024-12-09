@@ -1,36 +1,28 @@
 html, body{
     margin:0;
     padding:0;
-    background: #000;
+    background:rgb(135, 224, 193);
 }
-
 .flag{
-    height:200px;
-    width:calc(200px*3/2);
-    background:#fff;
-    margin:2em auto;
-    /*display: flex;  Now we are making that flag by grid */
+    height: 300px;
+    width:calc(300px*5/3);
+    background:pink;
+    margin:3em auto;
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 100px;
 }
 .name{
-    color: #fff;
-    font-size: 30px;
-    margin-left: 47.5%;
+    font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
 }
-/*.stripe{
-    flex-grow: 1;/*that will tell us that each one of us our stipe is take of one portion of available space of the container*/
- /*we will have three eqaul size of stipe in the main body*/
 
-
+.black{
+    background: #000;
+}
 .red{
     background:red;
 }
-.blue{
-    background: blue;
-}
-.white{
-    background: #fff;
+.orange{
+    background:orange;
 }
